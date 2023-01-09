@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+h1{
+    background-color: aqua;
+    text-align: center;
+    padding: 1em; 
+}
+
+.squared{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+
+.squared:hover{
+    border-radius: 50%;
+    background-color: chartreuse;
+}
