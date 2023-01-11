@@ -1,0 +1,206 @@
+.heading{
+    background-color: aqua;
+    text-align: center;
+    padding: 1em; 
+}
+
+.picture{
+    width: 80%;
+    margin: auto;
+    border: ridge 1.5em teal;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background */
+.background{
+    width: 100%;
+    display: block;
+    animation-delay: 3s;
+    animation: BackgroundAnimation 2s;
+}
+
+@keyframes BackgroundAnimation{
+    0%, 100%  { -webkit-filter: sepia(0%); }
+    50% { -webkit-filter: sepia(100%); }
+}
+
+/* Text in the background */
+p {
+    font-size: 4em;
+    font-family: fantasy;
+    color: darkcyan;
+    opacity: 0;
+}
+
+.text{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    display: block;
+    overflow: hidden;
+    animation: TextAnimation 5s;
+}
+
+@keyframes TextAnimation{
+    0% {opacity:0; transform: scale(1);}
+    50% {opacity:1; transform: scale(1.5);}
+    100% {opacity:0; transform: scale(1);}
+}
+
+.icon1{
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    left: 1200px;
+    align-items: center;
+    display: block;
+    overflow: hidden;
+    animation: IconAnimation 5s;
+}
+
+@keyframes IconAnimation {
+    0% {opacity:0; transform: rotate(0deg);}
+    50% {opacity:1; transform: rotate(360deg);}
+    100% {opacity:0; transform: rotate(-360deg);}
+}
+
+.icon2_0{
+    width: 11%;
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 10s;
+    animation: Icon2 2s infinite;
+}
+
+@keyframes Icon2{
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.icon2_1 {
+    width: 15%;
+    position: absolute;
+    top: 900px;
+    left: 1100px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 10s infinite;
+}
+
+.icon2_2 {
+    width: 12%;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 6s infinite;
+}
+
+.icon2_3 {
+    width: 9%;
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 5s infinite;
+}
+
+.icon2_4 {
+    width: 19%;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 3s infinite;
+}
+
+.icon2_5 {
+    width: 10%;
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 12s infinite;
+}
+
+.icon2_6 {
+    width: 12%;
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 11s infinite;
+}
+
+.icon2_7 {
+    width: 25%;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 8s infinite;
+}
+
+.icon2_8 {
+    width: 30%;
+    position: absolute;
+    top: 600px;
+    left: 1250px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 2s infinite;
+}
+
+.icon2_9 {
+    width: 23%;
+    position: absolute;
+    top: 800px;
+    left: 250px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 4s infinite;
+}
+
+.icon2_10 {
+    width: 10%;
+    position: absolute;
+    top: 900px;
+    left: 700px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 15s infinite;
+}
+
+.icon2_11 {
+    width: 26%;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    display: block;
+    overflow: hidden;
+    animation-delay: 7s;
+    animation: Icon2 3s infinite;
+}
