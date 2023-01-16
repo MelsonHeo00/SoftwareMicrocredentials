@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+
+.cardContainer{
+    display: flex;
+}
+
+.cardBody{
+    width: 30%; 
+    margin-top: 5%; 
+    margin-left: 5%;
+}
+
+:root{
+    --primary: #216311;
+    --primaryLight: #529136;
+    --primaryDark: #003800;
+    --secondary: #f23c9a;
+    --secondaryLight: #ff75cb;
+    --secondaryDark: #bb006c;
+    --animationSlide:"slideBus";
+}
+
+.h1title{
+    background-color: var(--primaryDark);
+    color: var(--secondaryLight);
+    animation: var(--animationSlide) 2s;
+}

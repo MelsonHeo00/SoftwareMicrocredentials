@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 5 - Melson Heo</title>
+</head>
+<body>
+    <h1> Activity 5 </h1>
+
+    <script>
+    // Part 1
+    console.log('Acitvity 5');
+
+    console.log('--Activity 5.1: JavaScript Essential: variables, strings, and arrays--')
+    let name2 = prompt('Please enter a name: ');
+    let number = parseInt(prompt('Please enter a number: '));
+    console.log('Welcome to the program ' + name2 + '. Your lucky number is ' + number + '.');
+    console.log(`Good morning ${name2}. Your entered number: ${number}`);
+
+    // Part 2
+    console.log('--Activity 5.2: String and string methods--');
+    let keyword = prompt('Please enter a word: ');
+    let keywordLength = keyword.length;
+    let keywordUppercase = keyword.toUpperCase();
+    let extractCharacter = keyword.slice(-2);
+    console.log('The second letter of the word is: ' + keyword[1]);
+    console.log(`The length of the word ${keyword} is ${keywordLength}.`);
+    console.log(`Uppercase: ${keywordUppercase}`);
+    console.log(`The last two characters of the word ${keyword} is ${extractCharacter}.`);
+
+    // Part 3
+    console.log('--Activity 5.3: Arrays and array methods--');
+    let array = ['apple', 5, 'lime', false, 'banana'];
+    console.log(`Mixed array with initial values: ${array}`);
+    let animalUser = prompt('Please type an ANIMAL: ');
+    array.push(animalUser);
+    console.log(`Mixed array with an new animal added to the end: ${array}`);
+    let negativeNumber = prompt('Please enter a negative number: ');
+    array.push(negativeNumber);
+    console.log(`Mixed array with a new NEGATIVE NUMBER added to the front, beginning, of the array : ${array}`);
+    let copyArray = array.slice();
+    copyArray.reverse();
+    console.log(`Mixed array: ${array} and reverse of copy array: ${copyArray}`);
+    </script>
+</body>
+</html>

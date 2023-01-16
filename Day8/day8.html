@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 - Melson Heo</title>
+</head>
+<body>
+    <h1>Melson Heo</h1>
+
+    <!--Javascript-->
+    <script>
+        /*
+        let firstName;
+        let x = 100, y = -1.5, z = 7;
+        let boolean1 = true;
+        let boolean2 = false;
+        let lastName;
+        let name = null;
+
+        firstName = 'Maria';
+        firstName = "Peter";
+
+        console.log('Hello there!');
+        console.log(firstName, y);
+        console.log('First name = ', firstName);
+        console.log(firstName + ' is my first name');
+        console.log(`${firstName} is my first name`);
+        */
+
+        let fullName = prompt('Please enter a name: ');
+        console.log(`The entered name is ${fullName}`);
+
+        let num1 = prompt('Enter the first number: ');
+        let num2 = prompt('Enter the second number: ');
+        num1 = parseInt(num1);
+        num2 = parseInt(num2);
+
+        let sum = num1 + num2;
+
+        let myString = "Queensborough Community College";
+        console.log(myString);
+        let stringLocation = myString.search('Co');
+        console.log(`The index location for Co is: ${stringLocation}`);
+
+        // remove white space in a string
+        let name1 = '              William                  Smith';
+
+        // subtracting characters
+        let subWord = myString.substr(6,7);
+        console.log(subWord);
+
+        // First find the position of the word and then subtract 5 character from the word
+        let findFirst = myString.search('Com');
+        let subSec = myString.substr(findFirst, 5);
+        console.log(`The subtracted characters are ${subSec}`);
+
+        // extract the characters from an string
+        let extractCharacter = myString.slice(6,10);
+        console.log(`The extracted characters are ${extractCharacter}`);
+
+        // ARRAYS
+        let fruits;
+        fruits = ["apples", 'oranges', 'grapes', 'h'];
+
+        let cars = ['Nissan', 'Tesla', 'Mazda', 'Mercedez'];
+        let mixedItems = [65, true, 'cats'];
+
+        console.log(cars);
+        console.log(mixedItems);
+        console.log(`The second item in array fruits is: ${fruits[1]}`);
+
+        let countries = ['Canada', 'USA', ['Mexico', 'Panama', 'Brasil']];
+        console.log(countries);
+        console.log(countries[2][1]);
+
+        // create a copy of an array
+        let newItems = mixedItems; // direct copy, link update
+        let newItemsSlice = mixedItems.slice(); // make an independent copy, updates are not linked
+
+        // Find the second character on a third item 'cats'
+        let indexCats = mixedItems.indexOf('cats');
+        let charCats =  mixedItems[indexCats][1];
+
+    </script>
+</body>
+</html>
