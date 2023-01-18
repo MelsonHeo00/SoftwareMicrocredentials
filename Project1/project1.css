@@ -4,6 +4,10 @@ body {
     background-color: var(--secondaryLight);
 }
 
+hr {
+    border: 1px solid;
+}
+
 /* Primary color - Maroon 
    Secondary color - Blackberry
 */
@@ -48,6 +52,26 @@ body {
     height: 500px;
 }
 
+.Icon1 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    animation: IconAnimation 4s infinite;
+}
+
+.Icon2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    animation: IconAnimation 4s infinite;
+}
+
+@keyframes IconAnimation {
+    0% {transform: scale(1, 1);}
+    50% {transform: scale(1.5, 1.5);}
+    100% {transform: scale(1, 1);}
+}
+
 .introh1 {
     position: absolute;
     top: 40%;
@@ -68,8 +92,69 @@ body {
     text-align: center;
 }
 
+/* Body Information */
 .textTabs {
     font-size: 2em;
     font-family: Arial;
     color: var(--primaryDark);
+    font-weight: bold;
+}
+
+.textInformation {
+    font-size: 20px;
+    padding-left: 0px;
+    font-family: Arial;
+    color: var(--secondaryDark);
+}
+
+.picture2 {
+    max-width: 30%;
+    flex-basis: 40%;
+    border: 2px solid;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+}
+
+/* List */
+
+.list {
+    font-size: 20px;
+    padding-left: 80px;
+    font-family: Arial;
+    color: var(--secondaryDark);
+}
+
+/* Table */
+
+table, td, tr {
+    border: 1px solid;
+    height: 70px;
+    padding: 15px;
+}
+
+th {
+    width: 200px;
+}
+
+.tablePlaces {
+    text-align: center;
+    border: 1px solid;
+}
+
+.imageAlign1 {
+    float: left;
+    width: 33.33%;
+    height: 800px;
+    padding: 5px;
+}
+
+.threeImages::after {
+    content: "";
+    clear: both;
+    display: table;
 }
