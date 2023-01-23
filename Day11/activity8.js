@@ -11,9 +11,11 @@ function checkName() {
         }
     }
 
-    console.log('--- checkName() function ---');
     console.log("Welcome " + name.toUpperCase() + " to the class!");
 }
+
+console.log('--- checkName() function ---');
+checkName();
 
 // Part 2
 function checkNum() {
@@ -31,16 +33,16 @@ function checkNum() {
         }
     }
 
-console.log('--- checkNum() function ---');
-
 if (checkNumber %2 === 0) {
-    return true
+    console.log(true);
 }
 else {
-    return false
+    console.log(false);
 }
 }
 
+console.log('--- checkNum() function ---');
+checkNum();
 
 // Part 3
 function lottery(numOfGames) {
@@ -53,3 +55,8 @@ function lottery(numOfGames) {
         console.log(`(${i + 1}) [${numbers}]`);
     }
 }
+
+console.log('--- lottery(2) function ---');
+lottery(2);
+console.log('--- lottery(15) function ---');
+lottery(15);
