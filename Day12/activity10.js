@@ -44,7 +44,7 @@ let mySentence = document.createTextNode('This is a text in a new paragraph');
 // step 3: add it to the DOM
 myPara.appendChild(mySentence);
 // step 3: find the position where the new element will be added
-let newP = document.querySelector('.d')
+let newP = document.querySelector('.d');
 newP.appendChild(myPara);
 
 
