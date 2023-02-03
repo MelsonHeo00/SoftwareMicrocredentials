@@ -69,3 +69,60 @@ html {
     background-color: whitesmoke;
     color: rgb(50, 50, 50);
 }
+.linkItem {
+    border: solid green;
+}
+/* Modal Window */
+
+.modalWindow {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+.modalContent {
+    width: 40%;
+    height: 70%;
+    margin: 5% 30%;
+    background-color: white;
+}
+.modalHead {
+    width: 70%;
+    padding: 1em 0em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(50,50,50);
+    border-bottom: inset gray 2px;
+    margin: 1em 3em;
+    padding-top: 2em;
+    float: left;
+}
+.modalHeadX {
+    float: right;
+    font-size: 1.5em;
+    padding: 1em;
+}
+.modalHeadX:hover {
+    background-color: lightgray;
+    transition: ease-in-out 0.3s;
+    color: whitesmoke;
+}
+.modalTop {
+    display: flex;
+}
+.modalBody {
+    display: flex;
+}
+.modalImg {
+    width: 40%;
+}
+.modalInfo {
+    width: 70%;
+    text-align: center;
+}
+.modalImg img{
+    width: 80%;
+    padding-left: 5em;
+}
