@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: slategray;
+}
+
+/* Color Palette */
+:root{
+    --primary: #1C2C54;
+    --secondary: #4BC385;
+}
+
+.firstImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 700px;
+}
+
