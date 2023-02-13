@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for News</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <button class="commuteButton">
+        <a href="project2.html">
+        Back
+        </a>
+    </button>
+
+    <h1>Sign up for Updates</h1>
+    <form action="userFormSent.html" method="post">
+        <fieldset>
+        <legend>Enter Info: </legend>
+        <p>Enter First Name: </p>
+        <input type="text" name="firstname" maxlength="30" placeholder="Enter your first name" id="firstName">
+        <p>Enter Last Name: </p>
+        <input type="text" name="lastname" maxlength="30" placeholder="Enter your last name" id="lastName">
+        <p>Enter Email: </p>
+        <input type="email" name="email" placeholder="Enter your email" id="userEmail">
+        <p>Gender (Optional): </p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+        <p>Which updates you want to be notified?</p>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="updates">
+        <label for="checkbox1"> New Updates </label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="sales">
+        <label for="checkbox2"> Sales </label><br>
+        <input type="checkbox" id="checkbox3" name="checkbox3" value="merch">
+        <label for="checkbox3"> New Merch </label><br>
+        <input type="checkbox" id="checkbox4" name="checkbox4" value="special">
+        <label for="checkbox4"> Special Occasions </label><br>
+        <input type="checkbox" id="checkbox5" name="checkbox5" value="gaming">
+        <label for="checkbox5"> Gaming </label><br>
+        <input type="checkbox" id="checkbox6" name="checkbox6" value="giveaway">
+        <label for="checkbox6"> Giveaways </label><br>
+        <p></p>
+        <input type="submit" value="SUBMIT" class="submit1">
+        </fieldset>
+    </form>
+
+    <!-- JS Script -->
+    <script src="project2.js"></script>
+</body>
+</html>
